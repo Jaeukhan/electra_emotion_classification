@@ -1,5 +1,6 @@
-"""폴더 설명"""
+# KoElectra를 이용한 Emotion Classification
 
+### 1. 폴더 구조 설명 :open_file_folder:
 1] checkpoint
 electra_827.pt - 8월 27일에 네이버리뷰+2100개부정 문장으로 학습한. electra model(deeplearning) 학습한 파라미터.
 
@@ -33,8 +34,9 @@ test.py로 돌린 결과를 모아놓은 폴더
 현재 test시 사용하는 것은 학습데이터로 사용하지 않은 감사.xlsx(사전작업폴더)를 사용중.
 
 
+<br/>
 
-""" 파이선 프로그램 돌릴 시 기능 설명"""
+### 2.  기능 설명 및 프로그램 실행 방법
 
 1) 추가적인 사전작업이 필요한경우
 data_arrange.py 파일을 실행하여, pd.read_excel('파일명')에 파일명을 입력한 후 돌리면, 기존 사전과 알바를 이용해서 나온 사전이 합쳐져서 저장 된다. 
